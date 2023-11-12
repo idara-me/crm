@@ -44,6 +44,8 @@
   "mobile_no",
   "column_break_sjtw",
   "phone",
+  "column_break_wy0w",
+  "city",
   "section_break_jyxr",
   "contacts"
  ],
@@ -259,12 +261,21 @@
    "fieldtype": "Check",
    "hidden": 1,
    "label": "Created as Deal"
+  },
+  {
+   "fieldname": "column_break_wy0w",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-23 11:23:06.742666",
+ "modified": "2023-11-11 12:23:54.027374",
  "modified_by": "Administrator",
  "module": "FCRM",
  "name": "CRM Lead",
