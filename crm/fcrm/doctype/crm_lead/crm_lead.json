@@ -20,8 +20,18 @@
   "column_break_lcuv",
   "lead_owner",
   "status",
+  "assigned_to",
   "source",
+  "lead_score",
   "converted",
+  "section_break_fryi",
+  "budget",
+  "number_of_visits",
+  "how_did_you_hear_about_us",
+  "interested_vehicle",
+  "payment",
+  "section_break_zrzh",
+  "notes",
   "organization_tab",
   "section_break_uixv",
   "organization",
@@ -38,6 +48,8 @@
   "mobile_no",
   "column_break_sjtw",
   "phone",
+  "column_break_kpit",
+  "city",
   "section_break_jyxr",
   "contacts"
  ],
@@ -128,7 +140,7 @@
   },
   {
    "fieldname": "phone",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Phone",
    "options": "Phone"
   },
@@ -226,12 +238,72 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Converted"
+  },
+  {
+   "fieldname": "column_break_kpit",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_fryi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "lead_score",
+   "fieldtype": "Rating",
+   "label": "Lead Score"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Currency",
+   "label": "Budget"
+  },
+  {
+   "fieldname": "section_break_zrzh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "number_of_visits",
+   "fieldtype": "Int",
+   "label": "Number of visits"
+  },
+  {
+   "fieldname": "how_did_you_hear_about_us",
+   "fieldtype": "Select",
+   "label": "How did you hear about us",
+   "options": "Facebook\nInstagram\nWord of Mouth"
+  },
+  {
+   "fieldname": "interested_vehicle",
+   "fieldtype": "Data",
+   "label": "Interested Vehicle"
+  },
+  {
+   "fieldname": "payment",
+   "fieldtype": "Select",
+   "label": "Payment",
+   "options": "Cash\nCheque\nCash & Cheque"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-06 21:53:32.542503",
+ "modified": "2023-11-13 06:18:46.336521",
  "modified_by": "Administrator",
  "module": "FCRM",
  "name": "CRM Lead",
